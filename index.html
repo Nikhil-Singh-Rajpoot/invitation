@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Print_Data</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/CSS/flaty.css" rel="stylesheet" />
+    <link href="/CSS/flaty-responsive.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/img/favicon.png" />
+    <script src="/JS_DATA/Create_login.js"></script>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #FAFAFA;
+            font: 12pt "Tahoma";
+        }
+
+        * {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        }
+
+        .page {
+            width: 18cm;
+            min-height: 22cm;
+            padding: 0cm;
+            margin: 0cm auto;
+            border-radius: 5px;
+            background: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .subpage {
+            padding: 1cm;
+            border: 5px red solid;
+            height: 256mm;
+            outline: 2cm #FFEAEA solid;
+        }
+
+        .responsive-image {
+            height: auto;
+            width: 100%;
+        }
+
+        #nirdesh {
+            color: #280856;
+        }
+
+        #dvaapat {
+            text-align: center;
+            margin-left: 30%;
+            margin-right: 30%;
+            background-color: #f38610;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            padding: 0.5cm;
+            border: 15px solid #f38610;
+            outline: 2px solid black;
+        }
+
+        @page {
+            size: A4;
+            margin: 2cm 2cm 2cm 2cm;
+        }
+
+        @media print {
+            .page {
+                border-radius: initial;
+                width: 8cm;
+                min-height: 10cm;
+                box-shadow: initial;
+                background: initial;
+                page-break-after: always;
+            }
+
+            #dvaapat {
+                text-align: center;
+                margin-left: 30%;
+                margin-right: 30%;
+                background-color: #f38610;
+            }
+
+            body {
+                font-size: 10pt;
+                margin: -10px;
+            }
+
+            .d-print-none {
+                display: none !important;
+            }
+
+            table {
+                display: table;
+                margin: 0.5cm 5cm 0.25cm 5cm;
+                padding: 0.5cm;
+                border: 15px solid #f38610;
+                outline: 2px solid black;
+            }
+
+            table, th, td {
+                display: table-cell;
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="book">
+        <div class="page">
+            <div class="container">
+                <div class="row">
+                    <table class="table-responsive">
+                        <thead>
+                            <tr>
+                                <td colspan="5">
+                                    <div class="box-title">
+                                        <img src="img/NEWPRINTLOGO.jpg" class="responsive-image" />
+                                    </div>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="5">
+                                    <h5 style="text-align:center"><b>परिचय पत्र</b></h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <h5 style="text-align:left"><b> क्रo - &nbsp;&nbsp; G10-07214</b></h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <h5 style="text-align:left">
+                                        <img class="responsive-image" style="height:4cm; width:4cm;border: 5px solid orange;" src="https://deeputsav.rmlauexams.in//QR/QR1538.PNG" />
+                                    </h5>
+                                </td>
+                                <td colspan="3">
+                                    <h5 style="text-align:left">
+                                        <img class="responsive-image" style="height:5cm; width:4cm;border: 5px solid orange;" src="img/photo.png" />
+                                    </h5>
+                                </td>
+                            </tr>
+                            <tr style="height:0.5cm;"></tr>
+                            <tr>
+                                <td colspan="5" style="text-align:center;font-size:18px">
+                                    <b>डॉ राममनोहर लोहिया अवध विश्‍वविद्यालय अयोध्या</b>
+                                </td>
+                            </tr>
+                            <tr style="height:0.5cm;"></tr>
+                            <tr>
+                                <td></td>
+                                <td><b>नाम :</b>&nbsp;&nbsp;</td>
+                                <td colspan="3"><b>निखिल कुमार सिंह </b></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><b>मोबाइल नंo :</b></td>
+                                <td colspan="3"><b>7272090004</b></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><b>तैनाती स्थल:</b></td>
+                                <td colspan="3"><b>राम की पैड़ी घाट नं : 310</b></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><b>दायित्व :</b></td>
+                                <td colspan="3"><b>स्वयंसेवक</b></td>
+                            </tr>
+                            <tr style="height:1cm;"></tr>
+                            <tr>
+                                <td></td>
+                                <td><br /></td>
+                                <td></td>
+                                <td><img class="responsive-image" style="height:1.5cm; width:2.5cm;" src="img/SIGNSS.jpg" /></td>
+                                <td style="text-align:right"><img class="responsive-image" style="height:1.5cm; width:3cm;" src="img/SIGN.jpg" /></td>
+                            </tr>
+                            <tr style="border-bottom:2px dashed black;">
+                                <td></td>
+                                <td style="text-align:left"><b>प्राधिकृत हस्ताक्षरी <br />संस्था/इकाई</b></td>
+                                <td></td>
+                                <td><b>नोडल अधिकारी</b></td>
+                                <td style="text-align:right"><b>प्राधिकृत हस्ताक्षरी <br />जिला प्रशासन</b></td>
+                            </tr>
+                            <tr style="height:0.7cm;"></tr>
+                            <tr>
+                                <td colspan="7">
+                                    <h6 style="text-align:center">
+                                        <b>आपात संपर्क सूत्र-</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        +91 8808160420 &nbsp;&nbsp;&nbsp;&nbsp;
+                                        +91 9170838005 &nbsp;&nbsp;&nbsp;&nbsp;
+                                    </h6>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
